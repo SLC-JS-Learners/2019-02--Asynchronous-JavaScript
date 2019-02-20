@@ -11,25 +11,7 @@
 // calculate(diff, 80, 38);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* CONVENIENCE FUNCTIONS */
 // generate a variable amount of lag for each waiting period
 const lag = (min, max) =>
 	Math.floor(Math.random() * (max - min + 1)) + min;

@@ -24,6 +24,7 @@ function makeClassicPizza (customer, callback) {
 	}, lag(minPizzaLag, maxPizzaLag));
 }
 
+
 // function serveTableSingleCustomer() {
 // 	orderPlaced('single');
 
@@ -38,13 +39,6 @@ function makeClassicPizza (customer, callback) {
 // 	})
 // }
 // serveTableSingleCustomer()
-
-
-
-
-
-
-
 
 
 // function serveTableFromSingleSmallOven() {
@@ -85,10 +79,6 @@ function makeClassicPizza (customer, callback) {
 // 	})
 // }
 // serveTableFromSingleSmallOven()
-
-
-
-
 
 
 // function serveTableFromMultipleLargeOvens() {

@@ -28,10 +28,8 @@ function cleanRoom (kid) {
 }
 
 
-
-
 // /* Using a promise */
-// let aliceCleansRoom = cleanRoom('Alice'); // our promise object
+// const aliceCleansRoom = cleanRoom('Alice'); // our promise object
 // aliceCleansRoom // how we handle our promise's response
 // 	.then(
 // 		// onResolved
@@ -45,22 +43,12 @@ function cleanRoom (kid) {
 // 	);
 
 
-
-
-
-
-
-
 // aliceCleansRoom
 // 	.then(
 //     rewardIndividual, // onResolved
 //     punishIndividual  // onRejected
 //   )
 // 	.finally(logInFamilyCalendar);
-
-
-
-
 
 
 // const bobbyCleansRoom = cleanRoom('Bobby');
@@ -74,12 +62,6 @@ function cleanRoom (kid) {
 // 	.then(rewardIndividual)
 // 	.catch(punishIndividual)
 // 	.finally(logInFamilyCalendar);
-
-
-
-
-
-
 
 
 // Promise.all([

@@ -40,7 +40,7 @@ function makeModernPizza (customer) {
 // 		let alicePizzaMade = await makeModernPizza('Alice');
 // 		let bobbyPizzaMade = await makeModernPizza('Bobby');
 // 		let charliePizzaMade = await makeModernPizza('Charlie');
-// 		orderServed('sequential');
+// 		orderServed('sequential-async-await');
 // 		// console.log(alicePizzaMade)
 // 		// console.log(bobbyPizzaMade)
 // 		// console.log(charliePizzaMade)
@@ -48,7 +48,7 @@ function makeModernPizza (customer) {
 // 		oops(error)
 // 	}
 // }
-// serveTableFromSingleSmallOven('sequential-async-await')
+// serveTableFromSingleSmallOven()
 
 
 
